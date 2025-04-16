@@ -19,6 +19,14 @@ This project implements an end-to-end pipeline for automated academic paper crit
 
 ---
 
+## Model Info
+- **Critique Generator:** Hugging Face model: Manoghn/mistral-qlora-critique
+- **Summary Generator:** facebook/bart-large-cnn
+- **Embedding Model (Plagiarism):** all-MiniLM-L6-v2
+- **Bias using Sentiment Analyzer:** NLTK VADER
+
+---
+
 ## 🚀 How to Run
 
 ### 1. Upload PDF
