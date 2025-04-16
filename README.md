@@ -26,6 +26,7 @@ Run the notebook and upload any research paper in `.pdf` format.
 
 ### 2. Install Dependencies
 Make sure to install all the required packages (see below or `requirements.txt`).
+Make sure to use personal access token from the Hugging face library before running
 
 ### 3. Execute
 The pipeline will print:
