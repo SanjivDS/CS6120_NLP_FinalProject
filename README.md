@@ -2,7 +2,7 @@
 
 This project implements an end-to-end pipeline for automated academic paper critique using Large Language Models. Given a PDF research paper, the system performs:
 
-- 📄 Section-wise summarization
+- 📄 Parsing into sections and Paragraphs, extraction of figures and tabulation along with Section-wise summarization
 - ✍️ Paragraph-level critique generation using a fine-tuned Mistral model
 - ⚖️ Bias detection using sentiment analysis (VADER)
 - 📋 Plagiarism detection using embedding similarity with PeerRead dataset
@@ -11,7 +11,7 @@ This project implements an end-to-end pipeline for automated academic paper crit
 
 ## 🔍 Features
 
-- **PDF Parsing:** Extracts and splits papers into structured sections and paragraphs
+- **PDF Parsing:** Extracts and splits papers into structured sections, figures, tables and paragraphs
 - **Summarization:** Generates concise section summaries using BART
 - **Critique Generation:** Calls a Hugging Face API to get peer-review style feedback
 - **Bias & Plagiarism Flags:** Paragraphs are evaluated for potential bias and plagiarism
