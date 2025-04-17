@@ -24,7 +24,7 @@ This project implements an end-to-end pipeline for automated academic paper crit
 - **Summary Generator:** facebook/bart-large-cnn
 - **Embedding Model (Plagiarism):** all-MiniLM-L6-v2
 - **Bias using Sentiment Analyzer:** NLTK VADER
-
+- **https://huggingface.co/Manoghn/mistral-qlora-critique**
 ---
 
 ## 🚀 How to Run
