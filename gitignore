@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.bin
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.out
+*.pdf
+
+# Colab and temporary files
+.DS_Store
+*.bak
+*.swp
+*~
+
+# Data files
+*.csv
+*.json
+*.tsv
+data/
+
+# Uploaded or generated PDFs
+*.pdf
+*.zip
+
+# Hugging Face token/config
+.huggingface/
